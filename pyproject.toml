@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "micromagnetic-gnn"
-version = "1.0.0"
+version = "1.0.1"
 description = "Graph Neural Networks for micromagnetic grain structure prediction"
 readme = "README.md"
 requires-python = ">=3.10"
