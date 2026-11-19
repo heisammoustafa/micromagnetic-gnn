@@ -1,0 +1,45 @@
+# Left out of the release archive (GitHub "Download ZIP" and the Zenodo code record).
+# Everything stays in git; the archive only holds what the paper uses.
+# Check with:  git archive --worktree-attributes HEAD | tar -t
+
+# cluster job scripts (site-specific paths) and developer notes
+slurm/                                     export-ignore
+AGENTS.md                                  export-ignore
+
+# notebooks, except bhmax_prediction/feature_importance.ipynb, which makes the
+# BHmax saliency-map figures of the paper
+notebooks/                                 export-ignore
+bhmax_prediction/model_eval.ipynb          export-ignore
+coercivity_prediction/*.ipynb              export-ignore
+switching_field_prediction/*.ipynb         export-ignore
+
+# pipelines and analyses that are not part of the paper
+switching_link_prediction/                 export-ignore
+weak_grain_prediction/                     export-ignore
+switching_field_prediction/order_target_eval.py   export-ignore
+switching_field_prediction/per_structure_eval.py  export-ignore
+switching_field_prediction/quantize_eval.py       export-ignore
+switching_field_prediction/tie_ceiling.py         export-ignore
+analysis/bhmax_ig.py                       export-ignore
+analysis/bhmax_saliency.py                 export-ignore
+analysis/bhmax_saliency2.py                export-ignore
+analysis/bhmax_training.py                 export-ignore
+analysis/coercivity_saliency.py            export-ignore
+analysis/coercivity_saliency2.py           export-ignore
+analysis/coercivity_training.py            export-ignore
+analysis/switching_field_saliency.py       export-ignore
+analysis/switching_field_figures.py        export-ignore
+analysis/scalefree_comparison.py           export-ignore
+# September variant of the paper figure script; analysis/edge_model_figures.py is the final one
+analysis/edge_model_figures_paper.py       export-ignore
+# compares ensemble members 1 and 4 of an earlier run (not shipped); not a figure of the paper
+analysis/feature_importance_ext.py         export-ignore
+# modules used only by the scripts above
+src/micromagnetic_gnn/saliency.py          export-ignore
+src/micromagnetic_gnn/training_plots.py    export-ignore
+
+# checkpoints the paper does not use (it uses bhmax, coercivity, coercivity_m15..m19, switching_field)
+results/archive/                           export-ignore
+results/coercivity_m[0-4].tar              export-ignore
+results/switching_field_norm.tar           export-ignore
+results/switching_link.tar                 export-ignore

@@ -1,0 +1,46 @@
+# Shared style for every figure in the paper.
+# Author figures at their final printed size (see plotstyle.width) so that a
+# point here is a point on the page; never rescale with \includegraphics.
+
+font.family:        serif
+mathtext.fontset:   stix
+font.size:          9
+axes.labelsize:     9
+axes.titlesize:     9
+xtick.labelsize:    8
+ytick.labelsize:    8
+legend.fontsize:    8
+
+figure.facecolor:   white
+savefig.facecolor:  white
+axes.facecolor:     none
+
+axes.spines.top:    False
+axes.spines.right:  False
+axes.edgecolor:     b0afab
+axes.linewidth:     0.6
+axes.axisbelow:     True
+
+axes.grid:          True
+grid.color:         e6e5e1
+grid.linewidth:     0.6
+
+xtick.direction:    out
+ytick.direction:    out
+xtick.major.size:   2.5
+ytick.major.size:   2.5
+xtick.major.width:  0.6
+ytick.major.width:  0.6
+xtick.color:        52514e
+ytick.color:        52514e
+
+lines.linewidth:    1.6
+lines.markersize:   4
+legend.frameon:     True
+legend.framealpha:  1.0
+legend.edgecolor:   e6e5e1
+legend.borderpad:   0.4
+
+savefig.bbox:       tight
+savefig.dpi:        300
+figure.dpi:         300

@@ -1,0 +1,7 @@
+no_grains = 5
+size_x = 148
+divider = 5.313292845913055
+AR = 4.9
+cone_angle = 15
+gb_t = 3
+eval points per grain = 30

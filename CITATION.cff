@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below and this software record."
+type: software
+title: "Micromagnetic GNN: code for Graph Neural Networks for Explainable and Uncertainty-Aware Design of Permanent-Magnet Microstructures"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/schaffer9/gnn"
+abstract: >-
+  Edge-centric graph neural network with global state updates, trained as a
+  surrogate for micromagnetic simulation of Nd2Fe14B polycrystalline
+  microstructures. It predicts the coercive field, the maximum energy product
+  and the per-grain nucleation field from grain-graph representations, with
+  Monte Carlo dropout and deep-ensemble uncertainty quantification and
+  gradient-based explanations. The repository contains the package, the
+  training pipelines, the trained model checkpoints and the scripts that
+  generate the figures of the paper. The training data and the paper figures
+  are archived in a separate Zenodo record.
+keywords:
+  - graph neural network
+  - micromagnetics
+  - permanent magnets
+  - Nd2Fe14B
+  - uncertainty quantification
+  - explainable machine learning
+authors:
+  - family-names: Moustafa
+    given-names: "H."
+    orcid: "https://orcid.org/0009-0005-9251-5494"
+    affiliation: "Department for Integrated Sensor Systems, University for Continuing Education Krems, Wr. Neustadt, Austria"
+  - family-names: Schaffer
+    given-names: "S."
+    orcid: "https://orcid.org/0009-0001-2577-3099"
+    affiliation: "Wolfgang Pauli Institute and Department of Mathematics, University of Vienna, Vienna, Austria"
+  - family-names: Trost
+    given-names: "C. O. W."
+    orcid: "https://orcid.org/0000-0002-7570-688X"
+    affiliation: "Erich Schmid Institute of Materials Science, Austrian Academy of Sciences, Leoben, Austria"
+  - family-names: Kovacs
+    given-names: "A."
+    orcid: "https://orcid.org/0000-0002-8413-1950"
+    affiliation: "Department for Integrated Sensor Systems, University for Continuing Education Krems, Wr. Neustadt, Austria"
+  - family-names: Exl
+    given-names: "L."
+    orcid: "https://orcid.org/0000-0002-5343-6938"
+    affiliation: "Wolfgang Pauli Institute and Department of Mathematics, University of Vienna, Vienna, Austria"
+  - family-names: Oezelt
+    given-names: "H."
+    orcid: "https://orcid.org/0000-0002-3754-3565"
+    affiliation: "Department for Integrated Sensor Systems, University for Continuing Education Krems, Wr. Neustadt, Austria"
+# TODO(before release): add the DOI of the data record (reserve it on Zenodo first), e.g.
+#   references:
+#     - type: dataset
+#       title: "Data for: Graph Neural Networks for Explainable and Uncertainty-Aware Design of Permanent-Magnet Microstructures"
+#       doi: "10.5281/zenodo.XXXXXXX"
+# TODO(after release): add the code concept DOI as `doi:` above, and the journal and DOI of the paper below.
+preferred-citation:
+  type: article
+  title: "Graph Neural Networks for Explainable and Uncertainty-Aware Design of Permanent-Magnet Microstructures"
+  year: 2026
+  authors:
+    - family-names: Moustafa
+      given-names: "H."
+      orcid: "https://orcid.org/0009-0005-9251-5494"
+    - family-names: Schaffer
+      given-names: "S."
+      orcid: "https://orcid.org/0009-0001-2577-3099"
+    - family-names: Trost
+      given-names: "C. O. W."
+      orcid: "https://orcid.org/0000-0002-7570-688X"
+    - family-names: Kovacs
+      given-names: "A."
+      orcid: "https://orcid.org/0000-0002-8413-1950"
+    - family-names: Exl
+      given-names: "L."
+      orcid: "https://orcid.org/0000-0002-5343-6938"
+    - family-names: Oezelt
+      given-names: "H."
+      orcid: "https://orcid.org/0000-0002-3754-3565"

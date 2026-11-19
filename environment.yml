@@ -1,0 +1,25 @@
+# Conda/micromamba environment used to produce the results in the paper.
+#   micromamba env create -f environment.yml && micromamba activate micromagnetic_gnn
+# Then, from the repository root:  pip install -e ".[dev]"
+# (or run scripts with PYTHONPATH=src). The GPU build (CUDA 12.4) is optional;
+# for CPU-only use, drop the pytorch-cuda line and use `pytorch-mutex=*=cpu`.
+name: micromagnetic_gnn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.5.1
+  - pytorch-cuda=12.4
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - scipy==1.16.1
+      - matplotlib==3.11.2
+      - scikit-learn==1.9.1
+      - pandas==3.0.6
+      - pyyaml==6.0.2
+      - torch-geometric==2.6.1
+      - torchmetrics==1.7.3
+      - pytest==8.4.2
