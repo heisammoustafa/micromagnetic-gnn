@@ -15,8 +15,8 @@ gradient-based explanations.
 
 | | |
 |---|---|
-| Paper | [TODO: paper DOI] |
-| Code (this repository) | GitHub release, archived on Zenodo: [TODO: code concept DOI] |
+| Paper | journal TBD; the DOI will be added once the paper is published |
+| Code (this repository) | GitHub release, archived on Zenodo; its DOI will be added in the next release |
 | Data and figures | Zenodo: [10.5281/zenodo.22703510](https://doi.org/10.5281/zenodo.22703510) |
 
 The trained checkpoints used in the paper are part of this repository (`results/`,

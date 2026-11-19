@@ -73,7 +73,7 @@ references:
       - family-names: Oezelt
         given-names: "H."
         orcid: "https://orcid.org/0000-0002-3754-3565"
-# TODO(after release): add the code concept DOI as `doi:` above, and the journal and DOI of the paper below.
+# After the first release: add the code concept DOI as `doi:` above, and the journal and DOI of the paper below.
 preferred-citation:
   type: article
   title: "Graph Neural Networks for Explainable and Uncertainty-Aware Design of Permanent-Magnet Microstructures"
