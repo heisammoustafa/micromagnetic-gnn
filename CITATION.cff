@@ -4,7 +4,7 @@ type: software
 title: "Micromagnetic GNN: code for Graph Neural Networks for Explainable and Uncertainty-Aware Design of Permanent-Magnet Microstructures"
 version: 1.0.0
 license: MIT
-repository-code: "https://github.com/schaffer9/gnn"
+repository-code: "https://github.com/heisammoustafa/micromagnetic-gnn"
 abstract: >-
   Edge-centric graph neural network with global state updates, trained as a
   surrogate for micromagnetic simulation of Nd2Fe14B polycrystalline
