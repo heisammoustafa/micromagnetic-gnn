@@ -17,7 +17,7 @@ gradient-based explanations.
 |---|---|
 | Paper | [TODO: paper DOI] |
 | Code (this repository) | GitHub release, archived on Zenodo: [TODO: code concept DOI] |
-| Data and figures | Zenodo: [TODO: data DOI] |
+| Data and figures | Zenodo: [10.5281/zenodo.22703510](https://doi.org/10.5281/zenodo.22703510) |
 
 The trained checkpoints used in the paper are part of this repository (`results/`,
 about 7 MB). The training data (1612 simulated microstructures), the raw
@@ -45,9 +45,8 @@ simulation labels, from the working directory. It is not in this repository;
 download it from the data record and check it:
 
 ```bash
-# [TODO: replace RECORD_ID by the number of the data record, doi 10.5281/zenodo.RECORD_ID]
-curl -L -O https://zenodo.org/records/RECORD_ID/files/data_cache.pkl
-curl -L -O https://zenodo.org/records/RECORD_ID/files/data_cache.pkl.sha256
+curl -L -o data_cache.pkl "https://zenodo.org/records/22703510/files/data_cache.pkl?download=1"
+curl -L -o data_cache.pkl.sha256 "https://zenodo.org/records/22703510/files/data_cache.pkl.sha256?download=1"
 sha256sum -c data_cache.pkl.sha256
 ```
 

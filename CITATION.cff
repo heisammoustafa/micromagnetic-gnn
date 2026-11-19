@@ -47,11 +47,32 @@ authors:
     given-names: "H."
     orcid: "https://orcid.org/0000-0002-3754-3565"
     affiliation: "Department for Integrated Sensor Systems, University for Continuing Education Krems, Wr. Neustadt, Austria"
-# TODO(before release): add the DOI of the data record (reserve it on Zenodo first), e.g.
-#   references:
-#     - type: dataset
-#       title: "Data for: Graph Neural Networks for Explainable and Uncertainty-Aware Design of Permanent-Magnet Microstructures"
-#       doi: "10.5281/zenodo.XXXXXXX"
+references:
+  - type: data
+    title: "Data and figures for: Graph Neural Networks for Explainable and Uncertainty-Aware Design of Permanent-Magnet Microstructures"
+    doi: "10.5281/zenodo.22703510"
+    year: 2026
+    publisher:
+      name: Zenodo
+    authors:
+      - family-names: Moustafa
+        given-names: "H."
+        orcid: "https://orcid.org/0009-0005-9251-5494"
+      - family-names: Schaffer
+        given-names: "S."
+        orcid: "https://orcid.org/0009-0001-2577-3099"
+      - family-names: Trost
+        given-names: "C. O. W."
+        orcid: "https://orcid.org/0000-0002-7570-688X"
+      - family-names: Kovacs
+        given-names: "A."
+        orcid: "https://orcid.org/0000-0002-8413-1950"
+      - family-names: Exl
+        given-names: "L."
+        orcid: "https://orcid.org/0000-0002-5343-6938"
+      - family-names: Oezelt
+        given-names: "H."
+        orcid: "https://orcid.org/0000-0002-3754-3565"
 # TODO(after release): add the code concept DOI as `doi:` above, and the journal and DOI of the paper below.
 preferred-citation:
   type: article
